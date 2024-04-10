@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         transparent: "transparent",
-        current: "currentColor",
         white: "#ffffff",
         purple: "#3f3cbb",
         midnight: "#121063",
@@ -30,3 +29,4 @@ const config: Config = {
   plugins: [require("tailwindcss-animate")],
 };
 export default config;
+
