@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
-import { NotificationBar } from "@/components/notification-bar";
+import { NotificationBar } from "@/components/notificationBar";
+import { WhatWeTeach } from "@/components/whatWeTeach";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <NotificationBar />
       <Navbar />
       <Hero />
+      <WhatWeTeach />
     </main>
   );
 }
