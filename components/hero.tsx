@@ -3,7 +3,7 @@ export function Hero() {
     <div className="flex justify-between items-center px-8 py-12 bg-white">
       <div className="max-w-lg space-y-6">
         <h1 className="text-6xl font-bold text-orange-600">WEngineer</h1>
-        <p className="text-xl text-gray-600 italic">
+        <p className="text-xl text-gray-600 italic bg-midnight">
           Igniting young minds to fuel the future
         </p>
         <p className="text-gray-700">
